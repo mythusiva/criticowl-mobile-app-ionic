@@ -1,0 +1,39 @@
+<ion-view view-title="Movie details">
+  <ion-content class="dark-bg">
+
+		<div class="list card stable-bg">
+
+		  <div class="item">
+		    <h1>{{movieDetails.title}}</h1>
+		    <p>Release date: {{movieDetails.releaseDate}}</p>
+		    <p>{{movieDetails.ratingPercent}} of people recommend this movie.</p>
+		  </div>
+
+		  <div class="item item-body">
+		    <img class="full-image" ng-src="{{movieDetails.posterImg}}">
+		    <p>
+		      <button ng-click="openLink('{{movieDetails.trailerSearchUrl}}')" class="button button-small button-stable">
+		      	<i class="icon ion-ios-film"></i>
+		      	Trailers
+		      </button>
+		    </p>
+		    <p>
+		      {{movieDetails.description}}
+		    </p>
+		  </div>
+
+		  <!-- <div class="item tabs tabs-secondary tabs-icon-left">
+		    <a class="tab-item" href="#">
+		      <i class="icon ion-chevron-up"></i>
+		      Upvote
+		    </a>
+		    <a class="tab-item" href="#">
+		      <i class="icon ion-chevron-down"></i>
+		      Downvote
+		    </a>
+		  </div> -->
+
+		</div>
+
+  </ion-content>
+</ion-view>

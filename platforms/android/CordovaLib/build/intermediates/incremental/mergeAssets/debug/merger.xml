@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/media/mythusiva/MS_SharedStorage/ownCloud/Documents/projects/mobile_app_projects/CriticOwlApp/platforms/android/CordovaLib/assets"/></dataSet><dataSet config="debug"><source path="/media/mythusiva/MS_SharedStorage/ownCloud/Documents/projects/mobile_app_projects/CriticOwlApp/platforms/android/CordovaLib/src/debug/assets"/></dataSet></merger>

@@ -1,0 +1,39 @@
+<ion-view view-title="{{title}}">
+  <ion-content class="dark-bg">
+  	<ion-refresher
+  		pulling-text="Pull to refresh..."
+  		on-refresh="doRefresh()">
+  	</ion-refresher>
+
+    <div ng-show="!movies.length">
+      <div class="card">
+        <div class="item item-text-wrap">
+          Pull down to refresh the movie list.
+        </div>
+      </div>
+    </div>
+
+
+    <div ng-show="movies.length" class="list card">
+
+      <a ng-repeat="movie in movies" 
+        href="#/app/movie-list/{{movie.id}}" 
+        class="item-thumbnail-left item stable-bg">
+        
+        <img ng-src="{{movie.posterThumbnail}}">
+        <h2>
+          <i ng-show="movie.starState === 'star-full'" class="icon ion-ios-star"></i>
+          <i ng-show="movie.starState === 'star-half'" class="icon ion-ios-star-half"></i>
+          <i ng-show="movie.starState === 'star-empty'" class="icon ion-ios-star-outline"></i>
+          {{movie.title}}
+        </h2>
+        <p>{{movie.ratingText}}</p>
+        <p>Rated: {{movie.mpaaRating}}</p>
+        <p>Score: {{movie.ratingPercent}}</p>
+
+      </a>
+
+    </div>
+
+  </ion-content>
+</ion-view>

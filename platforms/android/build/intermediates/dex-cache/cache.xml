@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/media/mythusiva/MS_SharedStorage/ownCloud/Documents/projects/mobile_app_projects/CriticOwlApp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a49b1e53a90dd8e6614f152fb9c3813208427a49">
+        <dex dex="/media/mythusiva/MS_SharedStorage/ownCloud/Documents/projects/mobile_app_projects/CriticOwlApp/platforms/android/build/intermediates/pre-dexed/debug/classes-c7043c9d924894666fa5c11d7b9e03c55ea495bf.jar" />
+    </item>
+
+</items>

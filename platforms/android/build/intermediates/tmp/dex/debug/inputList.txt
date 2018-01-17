@@ -1,0 +1,2 @@
+/media/mythusiva/MS_SharedStorage/ownCloud/Documents/projects/mobile_app_projects/CriticOwlApp/platforms/android/build/intermediates/classes/debug
+/media/mythusiva/MS_SharedStorage/ownCloud/Documents/projects/mobile_app_projects/CriticOwlApp/platforms/android/build/intermediates/pre-dexed/debug/classes-c7043c9d924894666fa5c11d7b9e03c55ea495bf.jar
